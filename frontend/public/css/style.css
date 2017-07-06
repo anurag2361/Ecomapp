@@ -1,0 +1,153 @@
+body{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  background-image: url('../pics/background.jpg');
+/*background-attachment: fixed;*/
+/*background-position: center;*/
+}
+
+.panel-primary{
+  box-shadow: 0 0 30px #00C853;
+}
+.panel-primary:hover{
+  box-shadow: 0 0 30px #33691E;
+}
+.pImg{
+  max-width: 250px;
+  max-height:  250px;
+}
+
+.login-screen{
+  background-color: #cccccc;
+
+}
+
+.login-box{
+  margin: auto;
+  margin-top: 3%;
+  width: 50%;
+  border: 2px solid #B9F6CA;
+  border-radius: 10px;
+  background-color: #E57373;
+}
+.checkout-box{
+  margin: auto;
+  margin-top: 3%;
+  width: 80%;
+  border: 2px solid #E57373;
+  border-radius: 10px;
+  background-color: #19B5FE;
+}
+
+.login-form,
+.product-form{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.input-block{
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.input-block p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-icon{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  color: #8b9199;
+  background-color: #ffffff;
+}
+
+.input-box{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 75%;
+  border: 0;
+  background-color: #E57373;
+  box-shadow: none;
+}
+
+
+
+main{
+  margin: 10px 0 10px 0;
+}
+
+.user-details-box{
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+.forgot-link a{
+  float: right;
+  margin-bottom: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.forgot-link a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.address-box{
+  background-color: green;
+  box-shadow: 0 0 10px green;
+  margin: 20px;
+}
+
+.boxF{
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid #E57373;
+  font-weight: bold;
+}
+.boxF:hover{
+  border: 2px dotted red;
+}
+.boxN{
+  padding: 15px;
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid #E57373;
+  font-weight: bold;
+  background-color: #31B0D5;
+  color: white;
+
+}
+.boxN:hover {
+  border: 2px dotted red;
+
+}
+.boxFl{
+  display: block;
+  margin: 5px;
+  border: 2px solid #E57373;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+.tProd{
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid #E57373;
+  font-weight: bold;
+  text-align: right;
+  padding: 5px;
+}
